@@ -1,0 +1,370 @@
+{
+  "environment" : [ {
+    "name" : "microfocus",
+    "description" : "stageset",
+    "id" : "microfocus",
+    "noOfStages" : 26,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "dev",
+      "idVaults" : [ {
+        "identityVaultId" : "idv01",
+        "identityVaultHost" : "host",
+        "identityVaultPort" : "8080",
+        "isSecured" : "yes",
+        "identityVaultUserId" : "userid",
+        "identityVaultPassword" : "password",
+        "driverSets" : [ {
+          "driverSetId" : "ds01",
+          "driverSetName" : "driverset1",
+          "drivers" : [ {
+            "driverId" : "LDAP",
+            "driverName" : "LDAP"
+          }, {
+            "driverId" : "AZURE",
+            "driverName" : "AZURE"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev"
+    }, {
+      "stageName" : "Pre-prod",
+      "description" : "This is a pre production Stage",
+      "idVaults" : [ ],
+      "stageId" : "preProdStage"
+    }, {
+      "stageName" : "prod",
+      "description" : "This is a pre production Stage",
+      "idVaults" : [ ],
+      "stageId" : "prod"
+    }, {
+      "stageName" : "Stage7",
+      "description" : "Stage7",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "Stage7"
+    }, {
+      "stageName" : "Stage7",
+      "description" : "Stage7",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "Stage9"
+    } ]
+  }, {
+    "name" : "novell1",
+    "description" : "description",
+    "id" : "netiq",
+    "noOfStages" : 2,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "idv08",
+        "identityVaultHost" : "host",
+        "identityVaultPort" : "8080",
+        "isSecured" : "string",
+        "identityVaultUserId" : "userid",
+        "identityVaultPassword" : "pass",
+        "driverSets" : [ {
+          "driverSetId" : "id01",
+          "driverSetName" : "set01",
+          "drivers" : [ {
+            "driverId" : "driver01",
+            "driverName" : "divrrname"
+          } ]
+        } ]
+      }, {
+        "identityVaultId" : "idv03",
+        "identityVaultHost" : "host",
+        "identityVaultPort" : "8080",
+        "isSecured" : "string",
+        "identityVaultUserId" : "userid",
+        "identityVaultPassword" : "pass",
+        "driverSets" : [ {
+          "driverSetId" : "id03",
+          "driverSetName" : "set01",
+          "drivers" : [ {
+            "driverId" : "driver01",
+            "driverName" : "divrrname"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev"
+    }, {
+      "stageName" : "dev04",
+      "description" : "desc",
+      "idVaults" : [ ],
+      "stageId" : "dev04"
+    }, {
+      "stageName" : "dev09",
+      "description" : "desc",
+      "idVaults" : [ ],
+      "stageId" : "dev09"
+    }, {
+      "stageName" : "dev90",
+      "description" : "desc",
+      "idVaults" : [ ],
+      "stageId" : "dev90"
+    }, {
+      "stageName" : "dev18",
+      "description" : "desc",
+      "idVaults" : [ ],
+      "stageId" : "dev18"
+    }, {
+      "stageName" : "dev20",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev20"
+    }, {
+      "stageName" : "dev20",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev02"
+    }, {
+      "stageName" : "dev21",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev21"
+    } ]
+  }, {
+    "name" : "novell",
+    "description" : "novell",
+    "id" : "novell",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "dev",
+      "idVaults" : [ ],
+      "stageId" : "dev"
+    } ]
+  }, {
+    "name" : "novell1",
+    "description" : "descr",
+    "id" : "demo",
+    "noOfStages" : 2,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "dev",
+      "idVaults" : [ ],
+      "stageId" : "dev"
+    }, {
+      "stageName" : "dev28",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "idv01",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "ds01",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev21"
+    } ]
+  }, {
+    "name" : "novelldemo",
+    "description" : "novelldesc",
+    "id" : "novelldemo",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "dev",
+      "idVaults" : [ {
+        "identityVaultId" : "idv01",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "ds01",
+          "driverSetName" : "driverset1",
+          "drivers" : [ {
+            "driverId" : "LDAP",
+            "driverName" : "LDAP"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev"
+    } ]
+  }, {
+    "name" : "novelldemo1",
+    "description" : "",
+    "id" : "novelldemo1",
+    "noOfStages" : 2,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "dev",
+      "idVaults" : [ {
+        "identityVaultId" : "idv01",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "[AES/GCM/NoPadding]kaH231zPXuWKsqxQ:tTl2nBebMff3vNErTNaucakWe0i1fqCa6jApggapImagPXc3sOQfq1cOVLPKVU82fk21D0FP328UvTAZYYKUQ0PXLai/nM664mo9qYCWk+MT9biW",
+        "driverSets" : [ {
+          "driverSetId" : "ds01",
+          "driverSetName" : "driverset1",
+          "drivers" : [ ]
+        } ]
+      } ],
+      "stageId" : "dev"
+    }, {
+      "stageName" : "Stage7",
+      "description" : "",
+      "idVaults" : [ {
+        "identityVaultId" : "string",
+        "identityVaultHost" : "string",
+        "identityVaultPort" : "string",
+        "isSecured" : "string",
+        "identityVaultUserId" : "string",
+        "identityVaultPassword" : "string",
+        "driverSets" : [ {
+          "driverSetId" : "string",
+          "driverSetName" : "string",
+          "drivers" : [ {
+            "driverId" : "string",
+            "driverName" : "string"
+          } ]
+        } ]
+      } ],
+      "stageId" : "Stage9"
+    } ]
+  }, {
+    "name" : "demotest",
+    "description" : "",
+    "id" : "demotest",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "dev",
+      "description" : "desc",
+      "idVaults" : [ {
+        "identityVaultId" : "idv11",
+        "identityVaultHost" : "host",
+        "identityVaultPort" : "8080",
+        "isSecured" : "string",
+        "identityVaultUserId" : "userid",
+        "identityVaultPassword" : "[AES/GCM/NoPadding]MvoF2el3mTMR6gUm:VjAfCDzDuJ/sDeGAW9t58PnujIU=",
+        "driverSets" : [ {
+          "driverSetId" : "id01",
+          "driverSetName" : "set01",
+          "drivers" : [ {
+            "driverId" : "driver01",
+            "driverName" : "divrrname"
+          } ]
+        } ]
+      }, {
+        "identityVaultId" : "idv12",
+        "identityVaultHost" : "host",
+        "identityVaultPort" : "8080",
+        "isSecured" : "string",
+        "identityVaultUserId" : "userid1",
+        "identityVaultPassword" : "[AES/GCM/NoPadding]n+hBhAyxFczdU+zA:kn1s0KmaaQgGC7jf55SbxTx4e0I=",
+        "driverSets" : [ {
+          "driverSetId" : "id01",
+          "driverSetName" : "set01",
+          "drivers" : [ {
+            "driverId" : "driver01",
+            "driverName" : "divrrname"
+          } ]
+        } ]
+      }, {
+        "identityVaultId" : "idv12",
+        "identityVaultHost" : "host1",
+        "identityVaultPort" : "8080",
+        "isSecured" : "string",
+        "identityVaultUserId" : "userid1",
+        "identityVaultPassword" : "[AES/GCM/NoPadding]TEpoXGe69LcoDmnp:fbign86AfLpfg+qS3MuwXHGIEDk=",
+        "driverSets" : [ {
+          "driverSetId" : "id01",
+          "driverSetName" : "set01",
+          "drivers" : [ {
+            "driverId" : "driver01",
+            "driverName" : "divrrname"
+          } ]
+        } ]
+      } ],
+      "stageId" : "dev"
+    } ]
+  } ]
+}
